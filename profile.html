@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yoga Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="menu-icon">&#9776;</div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ASANAS</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SETTING</a>
+    </nav>
+    <input type="search" placeholder="Search" class="search-bar" />
+    <div class="profile-icon"><img src="Group.png" alt=""></div>
+  </header>
+
+  <main class="dashboard">
+    <section class="left-panel">
+      <img src="Style/Images/logo.png" alt="YOJA Logo" class="logo" />
+
+      <div class="user-card">
+        <img src="Style/Images/User-1.png" alt="User Photo" class="user-photo" />
+        <div class="user-info">
+          <h3>Lionel Messi</h3>
+          <a href="mailto:leomessi@gmail.com">leomessi@gmail.com</a>
+          <p>9999999999</p>
+          <p>15-01-2004</p>
+          <p>lvl.5</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>60<sub>kg</sub></strong>
+          <span>Weight</span>
+        </div>
+        <div class="stat">
+          <strong>6’3<sub>ft</sub></strong>
+          <span>Height</span>
+        </div>
+        <div class="stat">
+          <strong>19%</strong>
+          <span>Body Fat</span>
+        </div>
+      </div>
+
+      <section class="workout">
+        <h4>Today your Workout</h4>
+        <div class="workout-grid">
+          <div class="card">
+            <img src="Style/Images/Today_Profile.png" alt="Pose" />
+            <p>Morning Yoga</p>
+            <p>⏱️ 43m</p>
+            <p>2 Sets</p>
+          </div>
+          <div class="card">
+            <img src="Style/Images/Today_Profile.png" alt="Pose" />
+            <p>Morning Yoga</p>
+            <p>⏱️ 43m</p>
+            <p>2 Sets</p>
+          </div>
+          <div class="card">
+            <img src="Style/Images/Today_Profile.png" alt="Pose" />
+            <p>Morning Yoga</p>
+            <p>⏱️ 43m</p>
+            <p>2 Sets</p>
+          </div>
+          <div class="card">
+            <img src="Style/Images/Today_Profile.png" alt="Pose" />
+            <p>Morning Yoga</p>
+            <p>⏱️ 43m</p>
+            <p>2 Sets</p>
+          </div>
+        </div>
+        <a href="#" class="view-more">view more</a>
+      </section>
+
+      
+      <section class="practice-calendar-section">
+        <h2 style="margin-bottom: 24px; font-size: 1.5rem; font-weight: 700;">Practice Calendar</h2>
+        <h2>June 2025</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              
+              <td class="normal-day">1</td>
+              <td class="practice-day">2</td>
+              <td class="practice-day">3</td>
+              <td class="practice-day">4</td>
+              <td class="practice-day">5</td>
+              <td class="normal-day">6</td>
+              <td class="practice-day">7</td>
+            </tr>
+            <tr>
+              <td class="practice-day">8</td>
+              <td class="practice-day">9</td>
+              <td class="normal-day">10</td>
+              <td class="practice-day">12</td>
+              <td class="practice-day">13</td>
+              <td class="normal-day">14</td>
+              <td class="normal-day">15</td>
+            </tr>
+            <tr>
+              <td class="normal-day">16</td>
+              <td class="normal-day">17</td>
+              <td class="normal-day">18</td>
+              <td class="practice-day">19</td>
+              <td class="practice-day">20</td>
+              <td class="today">21</td>
+              <td class="practice-day">22</td>
+            </tr>
+            <tr>
+              <td class="practice-day">23</td>
+              <td class="normal-day">24</td>
+              <td class="practice-day">25</td>
+              <td class="practice-day">26</td>
+              <td class="practice-day">27</td>
+              <td class="normal-day">28</td>
+              <td class="practice-day">29</td>
+            </tr>
+            <tr>
+              <td class="practice-day">30</td>
+              <td class="normal-day">31</td>
+          </tbody>
+        </table>
+        <div style="margin-top: 18px; display: flex; gap: 24px; font-size: 0.95rem;">
+          <span>
+            <span style="display:inline-block;width:18px;height:18px;background:#e8f7ea;border-radius:5px;vertical-align:middle;margin-right:6px;"></span>
+            Practice day
+          </span>
+          <span>
+            <span style="display:inline-block;width:18px;height:18px;background:#2da7f8;border-radius:5px;vertical-align:middle;margin-right:6px;"></span>
+            Today
+          </span>
+        </div>
+      </section>
+      
+
+    </section>
+
+    <section class="right-panel">
+      <h2>Track your <br><span>Daily progress</span></h2>
+      <p class="details">Get detailed analysis <br>about yourself</p>
+      <div class="progress-overview">
+        <div class="goal-card">
+          <h4>Your Goals</h4>
+          <p>Daily Practice Streaks <span class="blue">7/30 Days</span></p>
+          <div class="progress-bar bg-light">
+            <div class="progress blue" style="width: 23%; background: #2da7f8;"></div>
+          </div>
+          <p>Monthly minutes <span class="green">247/500</span></p>
+          <div class="progress-bar bg-light">
+            <div class="progress green" style="width: 50%; background: #32a852;"></div>
+          </div>
+        </div>
+        <div class="circular-progress">
+          <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="#ccc" stroke-width="10" fill="none" />
+            <circle cx="50" cy="50" r="40" stroke="#32a852" stroke-width="10" fill="none"
+              stroke-dasharray="251" stroke-dashoffset="63" transform="rotate(-90 50 50)" />
+            <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="20" fill="#222">75%</text>
+          </svg>
+          <button class="complete-btn">Completed</button>
+        </div>
+      </div>
+
+      <div class="practice-stats">
+        <h4>Your Practice Stats</h4>
+        <div class="stats-box">
+          <div>
+            <span class="icon">🕒</span>
+            <strong>1247</strong>
+            <p>Minutes Practiced</p>
+          </div>
+          <div>
+            <span class="icon">⭐</span>
+            <strong>5</strong>
+            <p>Favorite Asanas</p>
+          </div>
+          <div>
+            <span class="icon">🏆</span>
+            <strong>12</strong>
+            <p>Challenges Completed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>

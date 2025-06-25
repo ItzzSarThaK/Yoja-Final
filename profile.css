@@ -1,0 +1,393 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f4f6;
+  color: #222;
+  padding-bottom: 48px; 
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  background-color: #4A4A4A;
+  color: white;
+  padding: 0 32px;
+  height: 56px;
+  justify-content: space-between;
+}
+
+.top-bar nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.menu-icon, .profile-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.profile-icon {
+  color: white;
+}
+
+.search-bar {
+  width: 260px;
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  margin: 0 24px;
+  background: #fff;
+  color: #222;
+}
+
+.dashboard {
+  display: flex;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.left-panel {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 16px;
+}
+
+.user-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #0001;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 20px;
+}
+
+.user-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+}
+
+.user-info a {
+  color: #2da7f8;
+  text-decoration: none;
+  font-size: 0.98rem;
+}
+
+.stats {
+  display: flex;
+  gap: 18px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 16px 0;
+  justify-content: space-around;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat strong {
+  font-size: 1.3rem;
+  color: #32a852;
+}
+
+.stat sub {
+  font-size: 0.8rem;
+}
+
+.workout {
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 2px 12px #0001;
+  padding: 18px 20px;
+}
+
+.workout h4 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.workout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #f4f4f6;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 6px;
+  background: #e6f2e6;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.card p {
+  margin: 2px 0;
+}
+
+.view-more {
+  color: #2da7f8;
+  text-decoration: none;
+  font-size: 0.98rem;
+  display: block;
+  margin-top: 6px;
+  text-align: right;
+}
+
+.practice-calendar-section {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 32px;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 32px; /* Added to move calendar lower */
+}
+
+.calendar-image-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.calendar-content {
+  flex: 1;
+}
+
+.calendar-side-image {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #0001;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.practice-calendar-section h2 {
+  margin-bottom: 24px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.practice-calendar-section table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 18px 18px;
+  text-align: center;
+}
+
+.practice-calendar-section th {
+  color: #222;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.practice-calendar-section td, 
+.practice-calendar-section th {
+  width: 48px;
+  height: 48px;
+}
+
+.practice-calendar-section .practice-day {
+  background: #e8f7ea;
+  border-radius: 10px;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.practice-calendar-section .today {
+  background: #2da7f8;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.practice-calendar-section tbody td {
+  vertical-align: middle;
+}
+
+.practice-calendar-section div[style*="gap: 24px"] {
+  margin-top: 18px;
+  display: flex;
+  gap: 24px;
+  font-size: 0.95rem;
+}
+
+.practice-calendar-section span[style*="background:#e8f7ea"] {
+  border-radius: 5px;
+}
+
+.practice-calendar-section span[style*="background:#2da7f8"] {
+  border-radius: 5px;
+}
+
+.right-panel {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ecebeb;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #0001;
+  min-width: 420px;
+}
+
+.right-panel h2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size:48px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.right-panel h2 span {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.details {
+  color: #888;
+  margin-bottom: 18px;
+}
+
+.progress-overview {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 24px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.goal-card {
+  flex: 1.2;
+  background: #f4f4f6;
+  border-radius: 10px;
+  padding: 18px 18px 12px 18px;
+  margin-bottom: 0;
+}
+
+.goal-card h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.goal-card .blue {
+  color: #2da7f8;
+}
+
+.goal-card .green {
+  color: #32a852;
+}
+
+.progress-bar.bg-light {
+  background: #e8f7ea;
+  border-radius: 8px;
+  height: 10px;
+  margin: 6px 0 12px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.progress-bar .progress {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.progress-bar .progress.blue {
+  background: #2da7f8;
+}
+
+.progress-bar .progress.green {
+  background: #32a852;
+}
+
+.circular-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.complete-btn {
+  background: #2da7f8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+/* PRACTICE STATS */
+.practice-stats {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.stats-box div {
+  text-align: center;
+}
+
+.icon {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 6px;
+}
